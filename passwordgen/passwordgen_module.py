@@ -1,9 +1,14 @@
+import random
+import sys
+
+
 def passwordgen():
-    return
+    for i in range(8):
+        sys.stdout.write(chr(random.randint(33, 127)))
 
 
 def main():
-    return
+    passwordgen()
 
 
 if __name__ == '__main__':
